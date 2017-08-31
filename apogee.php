@@ -8,7 +8,6 @@
       'cache' => false
     ));
 
-    echo $twig->render('welcome-page.html.twig', array(
-        'moteur_name' => 'Twig'
+    echo $twig->render('apogee.html.twig', array(
     ));
 ?>
